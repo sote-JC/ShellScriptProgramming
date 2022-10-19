@@ -1,5 +1,5 @@
 #!/bin/sh
-if ! [ -f DB.txt ]
+if ! [ -e DB.txt ]
 then
   eval "touch DB.txt"
 fi
